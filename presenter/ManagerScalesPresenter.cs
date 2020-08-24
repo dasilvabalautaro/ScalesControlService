@@ -75,10 +75,10 @@ namespace ScalesControlService.presenter
 
         public void ClosePorts()
         {
-            //scaleOne.closePort();
-            //scaleTwo.closePort();
-            //scaleThree.closePort();
-            //scaleFour.closePort();
+            scaleOne.closePort();
+            scaleTwo.closePort();
+            scaleThree.closePort();
+            scaleFour.closePort();
         }
 
         public void WriteWeights()
